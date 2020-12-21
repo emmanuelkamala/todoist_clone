@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import firebase from '../firebase';
-
-const collatedTasksExist = () => {};
+import moment from 'moment';
+import { collatedTasksExist } from '../helpers/index';
 
 export const useTasks = selectedProject => {
   const [useTasks, setTasks] = useState([]);
