@@ -39,6 +39,7 @@ function Sidebar() {
       <ul className="sidebar__projects">
         Projects will be here
       </ul>
+      Add project component here
     </div>
   )
 }
